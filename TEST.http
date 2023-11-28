@@ -8,9 +8,8 @@ POST http://localhost:3002/users/
 content-type: application/json
 
 {
-"email":"milo11@gmail.com", 
-"password": "12345",
-"name": "Milo"
+    "name": "milo4",
+    "email": "milo4@gmail.com"
 }
 
 ### UPDATE user
@@ -26,4 +25,3 @@ content-type: application/json
 ### DELETE user
 DELETE http://localhost:3002/users/1
 content-type: application/json
-Authorization: token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7Il9pZCI6IjY1NWEzMDQ5ODA1MDliZmRjMTQ2ZWY5ZCIsIm5hbWUiOiJNaWxvIiwiZW1haWwiOiJtaWxvQGdtYWlsLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJFduTjVpNTZmM1N2Ui9LUTZGLlo4NC5wUkxCSHVVdWc1Z0kxdTVmaWNYeUZRbnVjdFo2ZUV1Iiwicm9sZSI6ImFkbWluIiwiX192IjowfSwiaWF0IjoxNzAwNjYwMjE1LCJleHAiOjE3MDMyNTIyMTV9.4G5rgo9Qj__U-jbQnP4KUnDwhhFf9nkD4Yi_t5I_cyk
